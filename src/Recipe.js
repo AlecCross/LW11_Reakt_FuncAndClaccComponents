@@ -1,9 +1,9 @@
 import './App.css';
 
 let recipeName = "Рецепт";
-export function GetRecipe() {
+export function Recipe() {
   return (
-    <div className="App">
+    <div>
         <h1>{recipeName}</h1>
     </div>
   );

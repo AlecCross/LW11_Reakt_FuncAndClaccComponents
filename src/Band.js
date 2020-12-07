@@ -1,4 +1,5 @@
-import './App.css';
+
+import React from 'react';
 
 let bandName="Товарищ Астроном";//название группы,
 let shortInfo= "Музыкальный коллектив из города Таллин";//информация об участниках группы, 
@@ -10,10 +11,10 @@ let albums =
 
 //обложки альбомов.
 
-export class FavBand extends React.Component {
+export class Band extends React.Component {
     render() {
       return (
-        <div className="App">
+        <div>
             <h1>{bandName}</h1>
             <p>{shortInfo}</p>
             <ul>
